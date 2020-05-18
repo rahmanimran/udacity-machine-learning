@@ -6,10 +6,12 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+dockerpath=rahmanimran/cfit-machine-learning
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username rahmanimran && docker tag cfit-machine-learning:latest $dockerpath
 
 # Step 3:
 # Push image to a docker repository
