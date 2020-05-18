@@ -15,3 +15,4 @@ docker login --username rahmanimran && docker tag cfit-machine-learning:latest $
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
