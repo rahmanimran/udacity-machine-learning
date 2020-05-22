@@ -27,3 +27,5 @@ curl -d '{
 }'\
      -H "Content-Type: application/json" \
      -X POST http://localhost:$PORT/api/v1/namespaces/default/pods/$POD_NAME/proxy/predict
+
+kubectl logs -f $POD_NAME
