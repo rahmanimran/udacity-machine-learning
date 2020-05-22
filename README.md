@@ -4,9 +4,9 @@ Git Repo: https://github.com/rahmanimran/cfit-machine-learning
 
 STEPS:
 
-1. Create a virtualenv and activate it./n
-	python3 -m venv ~/.devops
-	source ~/.devops/bin/activate   
+1. Create a virtualenv and activate it.
+- python3 -m venv ~/.devops
+- source ~/.devops/bin/activate   
 
 2. Install necessary dependencies with Makefile
 	make install
