@@ -2,11 +2,11 @@
 
 Git Repo: https://github.com/rahmanimran/cfit-machine-learning
 
-**STEPS:**
+##STEPS:##
 
 1. Create a virtualenv and activate it.
-- python3 -m venv ~/.devops
-- source ~/.devops/bin/activate   
+	- python3 -m venv ~/.devops
+	- source ~/.devops/bin/activate   
 
 2. Install necessary dependencies with Makefile
 - make install
@@ -33,42 +33,42 @@ Git Repo: https://github.com/rahmanimran/cfit-machine-learning
 - Open an account in Circle CI and include the github project.
 
 
-FILES:
+##FILES:##
 
-- makefile
+**makefile**
 Setup instruction of python environment and lint.
 
-- app.py
+**app.py**
 Python code which we will run.
 
-Dockerfile
+**Dockerfile**
 Definition of the Docker container which will expose the service in port 80.
 
-run_docker.sh
+**run_docker.sh**
 Building docker container from Docker file and run it on port 8000
 
-make_prediction.sh
+**make_prediction.sh**
 Tests the docker container connecting with port 8000
 
-upload_docker.sh
+**upload_docker.sh**
 Uploads the image to dockerhub
 
-run_kubernates.sh
+**run_kubernates.sh**
 Pulls the docker image and creates deployment.
 
-make_prediction_kubernetes.sh
+**make_prediction_k8s.sh**
 Tests kubernetes cluster connecting with port 8001
 
-docker_out.txt 
+**docker_out.txt**
 Output of terminal while running docker
 
-kubernetes_out.txt
+**kubernetes_out.txt**
 Output of terminal while running kubernetes
 
-.circleci/config.yml
+**.circleci/config.yml**
 Circle Ci configuration mentioning steps to lint and build the project
 
-DEPENDENCIES:
+##DEPENDENCIES:##
 1. I've done the project in AWS EC2. Used Amazin Linux 2.
 2. Docker
 3. Python3
