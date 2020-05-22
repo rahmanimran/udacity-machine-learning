@@ -2,43 +2,43 @@
 
 Git Repo: https://github.com/rahmanimran/cfit-machine-learning
 
-STEPS:
+**STEPS:**
 
 1. Create a virtualenv and activate it.
 - python3 -m venv ~/.devops
 - source ~/.devops/bin/activate   
 
 2. Install necessary dependencies with Makefile
-	make install
+- make install
 
 3. Check the python app first. It should be working.
-	python3 app.py
+- python3 app.py
 
 4. Run the Python app in Docker
-	chmod +x run_docker.sh
-	./run_docker.sh
+- chmod +x run_docker.sh
+- ./run_docker.sh
 	
 5. Make prediction from a separate window
-	./make_prediction.sh
+- ./make_prediction.sh
 
 6. Run the app in Kubernetes
-	chmod +x run_kubernetes.sh
-	./run_kubernetes.sh
+- chmod +x run_kubernetes.sh
+- ./run_kubernetes.sh
 
 7. Make prediction:
-	chmod +x make_prediction_k8s.sh
-	./make_prediction_k8s.sh
+- chmod +x make_prediction_k8s.sh
+- ./make_prediction_k8s.sh
 	
 8. Adding Circle CI
-Open an account in Circle CI and include the github project.
+- Open an account in Circle CI and include the github project.
 
 
 FILES:
 
-makefile
+- makefile
 Setup instruction of python environment and lint.
 
-app.py
+- app.py
 Python code which we will run.
 
 Dockerfile
