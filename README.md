@@ -1,4 +1,4 @@
-[![rahmanimran](https://circleci.com/gh/rahmanimran/cfit-machine-learning.svg?style=svg)](https://circleci.com/gh/rahmanimran/cfit-machine-learning)
+[![rahmanimran](https://circleci.com/gh/rahmanimran/udacity-machine-learning.svg?style=svg)](https://circleci.com/gh/rahmanimran/udacity-machine-learning)
 
 **Git Repo:** https://github.com/rahmanimran/udacity-machine-learning
 
